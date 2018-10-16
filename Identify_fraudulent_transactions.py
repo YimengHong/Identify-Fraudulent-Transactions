@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt 
 
-train = pd.read_csv('C:/Users/yimen/OneDrive/Documents/Python Scripts/input/transactionRecord.csv')
+train = pd.read_csv('.../input/transactionRecord.csv')
 train.head()
 train.describe()
 print(train.groupby(['Class']).size())  # imbalanced dataset
